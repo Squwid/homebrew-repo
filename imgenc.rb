@@ -1,4 +1,4 @@
-class imgenc < Formula
+class ImgEnc < Formula
     desc "A command line tool to Base64 encode images locally"
     homepage "https://github.com/Squwid/imgenc"
     version "0.0.1"
