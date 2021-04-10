@@ -6,13 +6,13 @@ class Imgenc < Formula
     on_macos do
         url "https://github.com/Squwid/imgenc/releases/download/v#{version}/imgenc_darwin_amd64.tar.gz"
         # openssl dgst -sha256 <file>
-        sha256 "08825d5d8f51841bb7aab27614fa687ae1f13ad48e11179dd908a1b40abdc34c"
+        sha256 "c03e611af53a62e842c9bc83a5f5bd8b89e08143bf4419d74d85a821f834cb65"
     end
     
     on_linux do
         url "https://github.com/Squwid/imgenc/releases/download/v#{version}/imgenc_linux_amd64.tar.gz"
         # openssl dgst -sha256 <file>
-        sha256 "c0a7e5045a3e1f0e56264415af1a7ffa0cedd12dd0f707e8abd7f8708ff288bd"
+        sha256 "5fc4b6e1c4a2f4006a95d798a10c7945e07d817febbf2ba6bb50f760815e8df3"
     end
   
     def install
